@@ -3,6 +3,7 @@ import styles from "@/styles/Home.module.css";
 
 
 export function Headline(props) {
+
   function capitalizeFirstLetter(string) {
     if (!string) return "";
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -22,11 +23,11 @@ export function Headline(props) {
       </div>
       <ol>
         <li>
-          Try by editing {capitalizeFirstLetter(props.page)} Page <code>src/pages/{props.page}.js</code>.
+          Try by editing {capitalizeFirstLetter(props.page)} Page 
+          {props.children}
         </li>
         <li>Save and see your changes instantly.</li>
-      </ol>
-
+      </ol> 
     </div>
   );
 }
