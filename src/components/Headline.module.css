@@ -1,0 +1,14 @@
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    filter: invert();
+  }
+}
+
+.headlineContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 中央寄せ */
+  gap: 16px;
+}
