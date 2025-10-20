@@ -1,0 +1,19 @@
+
+
+.header {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link {
+  padding: 0.5rem 1rem;
+  margin: 1rem 1rem 0;
+  color: inherit;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

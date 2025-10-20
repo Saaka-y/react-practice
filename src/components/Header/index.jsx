@@ -1,11 +1,11 @@
-// import styles from "@/components/Footer.module.css";
 import Link from "next/link";
+import styles from "@/components/Header/Header.module.css";
 
 export function Header() {
   return (
-    <header>
-      <Link href="/">Index</Link>
-      <Link href="/about">About</Link>
+    <header className={styles.header}>
+      <Link className={styles.link} href="/">Index</Link>
+      <Link className={styles.link} href="/about">About</Link>
     </header>
   )
 }
