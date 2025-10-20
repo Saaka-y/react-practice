@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "@/components/Links.module.css";
+import styles from "@/components/Links/Links.module.css";
 
 // データと処理は分離する
 const ITEMS = [
